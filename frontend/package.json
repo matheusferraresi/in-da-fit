@@ -1,7 +1,8 @@
 {
-    "name": "sick-fits-frontend",
+    "name": "in-da-fit-frontend",
     "version": "2.0.0",
-    "description": "Sick Fits! An example React, GraphQL, Next and Apollo",
+    "description": "In da fit! An example built with React, GraphQL, Next and Apollo. Done following Wes Bos Full Stack Advanced React Course.",
+    "author": "Matheus Ferraresi",
     "main": "index.js",
     "scripts": {
         "dev": "next -p 7777",
@@ -9,7 +10,6 @@
         "start": "next start -p 7777",
         "test": "NODE_ENV=test jest --watch"
     },
-    "author": "",
     "license": "ISC",
     "dependencies": {
         "@apollo/client": "^3.3.8",
