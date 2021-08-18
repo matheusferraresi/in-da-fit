@@ -44,7 +44,6 @@ export default function SingleProduct({ id }) {
   if (error) return <DisplayError error={error} />;
 
   const { Product } = data;
-  console.log(Product);
   return (
     <ProductStyles>
       <Head>
