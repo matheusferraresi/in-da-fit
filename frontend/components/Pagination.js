@@ -29,7 +29,9 @@ export default function Pagination() {
   return (
     <PaginationStyles>
       <Head>
-        <title>In Da Fit - Page {page} of ___</title>
+        <title>
+          In Da Fit - Page {page} of {pageCount}
+        </title>
       </Head>
 
       <Link href={`/products/${page - 1}`}>
