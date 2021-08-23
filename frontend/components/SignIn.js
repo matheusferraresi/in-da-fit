@@ -39,11 +39,7 @@ export default function SignIn() {
   async function handleSubmit(event) {
     event.preventDefault();
     const res = await signin();
-    console.log(res);
     resetForm();
-    // Router.push({
-    //   pathname: `/`,
-    // });
   }
   const error =
     data?.authenticateUserWithPassword.__typename ===
