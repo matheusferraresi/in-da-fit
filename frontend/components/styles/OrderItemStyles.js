@@ -5,6 +5,7 @@ const OrderItemStyles = styled.li`
   list-style: none;
   padding: 2rem;
   border: 1px solid var(--offWhite);
+  cursor: pointer;
   h2 {
     border-bottom: 2px solid red;
     margin-top: 0;
