@@ -100,7 +100,7 @@ export default async function checkout(
   });
 
   // 6. Clean up any old cart items
-  const cartItemIds = cartItems.map((cartItem) => cartItem.id);
+  const cartItemIds = user.cart.map((cartItem) => cartItem.id);
   await context.lists.CartItem.deleteMany({
     ids: cartItemIds,
   });
